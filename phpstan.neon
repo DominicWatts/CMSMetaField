@@ -1,0 +1,11 @@
+parameters:
+    level: 0
+    autoload_directories:
+        - Block
+        - Setup
+        - view
+    excludes_analyse:
+        - 'vendor'
+    ignoreErrors:
+        - '#InstallSchema scripts are obsolete#'
+    reportUnmatchedIgnoredErrors: false

@@ -1,0 +1,32 @@
+{
+    "name": "dominicwatts/cmsmetafield",
+    "description": "Magento 2 additional meta field for CMS pages",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Dominic Watts",
+            "email": "dominic@pixie.agency"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "magento/framework": "*",
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PixieMedia\\CMSOpenGraph\\": ""
+        }
+    }
+}
